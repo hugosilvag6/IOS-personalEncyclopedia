@@ -29,6 +29,12 @@
 		C1B07AAB2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */; };
 		C1B07AAC2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */; };
 		C1B07AAD2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */; };
+		C1B07AAF2B139F8900074FAF /* flying_bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAE2B139F8900074FAF /* flying_bird.swift */; };
+		C1B07AB02B139F8900074FAF /* flying_bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAE2B139F8900074FAF /* flying_bird.swift */; };
+		C1B07AB12B139F8900074FAF /* flying_bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAE2B139F8900074FAF /* flying_bird.swift */; };
+		C1B07AB32B139FEA00074FAF /* sprite_kit_physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AB22B139FEA00074FAF /* sprite_kit_physics.swift */; };
+		C1B07AB42B139FEA00074FAF /* sprite_kit_physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AB22B139FEA00074FAF /* sprite_kit_physics.swift */; };
+		C1B07AB52B139FEA00074FAF /* sprite_kit_physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AB22B139FEA00074FAF /* sprite_kit_physics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,8 @@
 		C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vitrola_add_ancora_nas_animacoes.m4a; sourceTree = "<group>"; };
 		C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_animation_hue_rotation.swift; sourceTree = "<group>"; };
 		C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathing_flower_with_emitter.swift; sourceTree = "<group>"; };
+		C1B07AAE2B139F8900074FAF /* flying_bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flying_bird.swift; sourceTree = "<group>"; };
+		C1B07AB22B139FEA00074FAF /* sprite_kit_physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sprite_kit_physics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,6 +219,8 @@
 				C1B07A9D2B139B0000074FAF /* breathing_circles.swift */,
 				C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */,
 				C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */,
+				C1B07AAE2B139F8900074FAF /* flying_bird.swift */,
+				C1B07AB22B139FEA00074FAF /* sprite_kit_physics.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -358,7 +368,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07A9A2B139A5500074FAF /* receiving_generic_params.swift in Sources */,
+				C1B07AAF2B139F8900074FAF /* flying_bird.swift in Sources */,
 				C1B07A952B13994C00074FAF /* without_modifier.swift in Sources */,
+				C1B07AB32B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
 				C1B07A9E2B139B0000074FAF /* breathing_circles.swift in Sources */,
 				C1B07AA02B139B3E00074FAF /* record_player_with_anchor.swift in Sources */,
 				C1B07AAB2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
@@ -375,6 +387,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07AAC2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
+				C1B07AB02B139F8900074FAF /* flying_bird.swift in Sources */,
+				C1B07AB42B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
 				C1B07A6F2B13959C00074FAF /* personalEncyclopediaTests.swift in Sources */,
 				C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 			);
@@ -385,7 +399,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07AAD2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
+				C1B07AB12B139F8900074FAF /* flying_bird.swift in Sources */,
 				C1B07A7B2B13959C00074FAF /* personalEncyclopediaUITestsLaunchTests.swift in Sources */,
+				C1B07AB52B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
 				C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 				C1B07A792B13959C00074FAF /* personalEncyclopediaUITests.swift in Sources */,
 			);
