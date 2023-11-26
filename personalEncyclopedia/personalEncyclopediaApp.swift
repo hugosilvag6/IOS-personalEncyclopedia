@@ -11,7 +11,7 @@ import SwiftUI
 struct personalEncyclopediaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            record_player_with_anchor()
         }
     }
 }

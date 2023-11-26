@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C1B07A5E2B13959B00074FAF /* personalEncyclopediaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A5D2B13959B00074FAF /* personalEncyclopediaApp.swift */; };
-		C1B07A602B13959B00074FAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A5F2B13959B00074FAF /* ContentView.swift */; };
 		C1B07A622B13959C00074FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B07A612B13959C00074FAF /* Assets.xcassets */; };
 		C1B07A652B13959C00074FAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B07A642B13959C00074FAF /* Preview Assets.xcassets */; };
 		C1B07A6F2B13959C00074FAF /* personalEncyclopediaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A6E2B13959C00074FAF /* personalEncyclopediaTests.swift */; };
@@ -19,6 +18,11 @@
 		C1B07A952B13994C00074FAF /* without_modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A942B13994C00074FAF /* without_modifier.swift */; };
 		C1B07A972B13996900074FAF /* with_modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A962B13996900074FAF /* with_modifier.swift */; };
 		C1B07A9A2B139A5500074FAF /* receiving_generic_params.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A992B139A5500074FAF /* receiving_generic_params.swift */; };
+		C1B07A9E2B139B0000074FAF /* breathing_circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A9D2B139B0000074FAF /* breathing_circles.swift */; };
+		C1B07AA02B139B3E00074FAF /* record_player_with_anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07A9F2B139B3E00074FAF /* record_player_with_anchor.swift */; };
+		C1B07AA32B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */; };
+		C1B07AA42B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */; };
+		C1B07AA52B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,6 @@
 /* Begin PBXFileReference section */
 		C1B07A5A2B13959B00074FAF /* personalEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personalEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1B07A5D2B13959B00074FAF /* personalEncyclopediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalEncyclopediaApp.swift; sourceTree = "<group>"; };
-		C1B07A5F2B13959B00074FAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1B07A612B13959C00074FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1B07A642B13959C00074FAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1B07A6A2B13959C00074FAF /* personalEncyclopediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personalEncyclopediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +57,9 @@
 		C1B07A942B13994C00074FAF /* without_modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = without_modifier.swift; sourceTree = "<group>"; };
 		C1B07A962B13996900074FAF /* with_modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = with_modifier.swift; sourceTree = "<group>"; };
 		C1B07A992B139A5500074FAF /* receiving_generic_params.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receiving_generic_params.swift; sourceTree = "<group>"; };
+		C1B07A9D2B139B0000074FAF /* breathing_circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathing_circles.swift; sourceTree = "<group>"; };
+		C1B07A9F2B139B3E00074FAF /* record_player_with_anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = record_player_with_anchor.swift; sourceTree = "<group>"; };
+		C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vitrola_add_ancora_nas_animacoes.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				C1B07A5D2B13959B00074FAF /* personalEncyclopediaApp.swift */,
-				C1B07A5F2B13959B00074FAF /* ContentView.swift */,
 				C1B07A612B13959C00074FAF /* Assets.xcassets */,
 				C1B07A632B13959C00074FAF /* Preview Content */,
 			);
@@ -149,6 +154,7 @@
 		C1B07A882B13968D00074FAF /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C1B07A9B2B139AF100074FAF /* Animations */,
 				C1B07A902B1398CA00074FAF /* Utils */,
 				C1B07A892B1396A600074FAF /* Views */,
 			);
@@ -188,6 +194,24 @@
 				C1B07A992B139A5500074FAF /* receiving_generic_params.swift */,
 			);
 			path = receiving_generic_params;
+			sourceTree = "<group>";
+		};
+		C1B07A9B2B139AF100074FAF /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C1B07AA12B139B7200074FAF /* record_player_with_anchor */,
+				C1B07A9D2B139B0000074FAF /* breathing_circles.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C1B07AA12B139B7200074FAF /* record_player_with_anchor */ = {
+			isa = PBXGroup;
+			children = (
+				C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */,
+				C1B07A9F2B139B3E00074FAF /* record_player_with_anchor.swift */,
+			);
+			path = record_player_with_anchor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +320,7 @@
 			files = (
 				C1B07A652B13959C00074FAF /* Preview Assets.xcassets in Resources */,
 				C1B07A622B13959C00074FAF /* Assets.xcassets in Resources */,
+				C1B07AA32B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B07AA42B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B07AA52B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +349,8 @@
 			files = (
 				C1B07A9A2B139A5500074FAF /* receiving_generic_params.swift in Sources */,
 				C1B07A952B13994C00074FAF /* without_modifier.swift in Sources */,
-				C1B07A602B13959B00074FAF /* ContentView.swift in Sources */,
+				C1B07A9E2B139B0000074FAF /* breathing_circles.swift in Sources */,
+				C1B07AA02B139B3E00074FAF /* record_player_with_anchor.swift in Sources */,
 				C1B07A972B13996900074FAF /* with_modifier.swift in Sources */,
 				C1B07A8C2B1396B500074FAF /* bottom_sheet.swift in Sources */,
 				C1B07A8F2B1397D900074FAF /* tab_view_with_pagination.swift in Sources */,
