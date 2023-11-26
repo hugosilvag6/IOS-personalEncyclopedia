@@ -44,6 +44,18 @@
 		C1B07AC72B13A10C00074FAF /* default_view_controller_representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AC62B13A10C00074FAF /* default_view_controller_representable.swift */; };
 		C1B07AC82B13A10C00074FAF /* default_view_controller_representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AC62B13A10C00074FAF /* default_view_controller_representable.swift */; };
 		C1B07AC92B13A10C00074FAF /* default_view_controller_representable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AC62B13A10C00074FAF /* default_view_controller_representable.swift */; };
+		C1B07ACB2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07ACA2B13A14E00074FAF /* uikit_uiTextfield.swift */; };
+		C1B07ACC2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07ACA2B13A14E00074FAF /* uikit_uiTextfield.swift */; };
+		C1B07ACD2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07ACA2B13A14E00074FAF /* uikit_uiTextfield.swift */; };
+		C1B07ACF2B13A1B600074FAF /* uikit_uiLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07ACE2B13A1B600074FAF /* uikit_uiLabel.swift */; };
+		C1B07AD02B13A1B600074FAF /* uikit_uiLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07ACE2B13A1B600074FAF /* uikit_uiLabel.swift */; };
+		C1B07AD12B13A1B600074FAF /* uikit_uiLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07ACE2B13A1B600074FAF /* uikit_uiLabel.swift */; };
+		C1B07AD32B13A1CA00074FAF /* uikit_uiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AD22B13A1CA00074FAF /* uikit_uiButton.swift */; };
+		C1B07AD42B13A1CA00074FAF /* uikit_uiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AD22B13A1CA00074FAF /* uikit_uiButton.swift */; };
+		C1B07AD52B13A1CA00074FAF /* uikit_uiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AD22B13A1CA00074FAF /* uikit_uiButton.swift */; };
+		C1B07AD72B13A1DB00074FAF /* uikit_divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AD62B13A1DB00074FAF /* uikit_divider.swift */; };
+		C1B07AD82B13A1DB00074FAF /* uikit_divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AD62B13A1DB00074FAF /* uikit_divider.swift */; };
+		C1B07AD92B13A1DB00074FAF /* uikit_divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AD62B13A1DB00074FAF /* uikit_divider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +100,10 @@
 		C1B07AB72B13A08D00074FAF /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		C1B07AC22B13A0FA00074FAF /* default_view_representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = default_view_representable.swift; sourceTree = "<group>"; };
 		C1B07AC62B13A10C00074FAF /* default_view_controller_representable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = default_view_controller_representable.swift; sourceTree = "<group>"; };
+		C1B07ACA2B13A14E00074FAF /* uikit_uiTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_uiTextfield.swift; sourceTree = "<group>"; };
+		C1B07ACE2B13A1B600074FAF /* uikit_uiLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_uiLabel.swift; sourceTree = "<group>"; };
+		C1B07AD22B13A1CA00074FAF /* uikit_uiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_uiButton.swift; sourceTree = "<group>"; };
+		C1B07AD62B13A1DB00074FAF /* uikit_divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikit_divider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +284,10 @@
 		C1B07ABC2B13A0CB00074FAF /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C1B07ACA2B13A14E00074FAF /* uikit_uiTextfield.swift */,
+				C1B07ACE2B13A1B600074FAF /* uikit_uiLabel.swift */,
+				C1B07AD22B13A1CA00074FAF /* uikit_uiButton.swift */,
+				C1B07AD62B13A1DB00074FAF /* uikit_divider.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -415,6 +435,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07A9A2B139A5500074FAF /* receiving_generic_params.swift in Sources */,
+				C1B07ACF2B13A1B600074FAF /* uikit_uiLabel.swift in Sources */,
+				C1B07AD72B13A1DB00074FAF /* uikit_divider.swift in Sources */,
+				C1B07AD32B13A1CA00074FAF /* uikit_uiButton.swift in Sources */,
 				C1B07AC32B13A0FA00074FAF /* default_view_representable.swift in Sources */,
 				C1B07AAF2B139F8900074FAF /* flying_bird.swift in Sources */,
 				C1B07AC72B13A10C00074FAF /* default_view_controller_representable.swift in Sources */,
@@ -428,6 +451,7 @@
 				C1B07A8F2B1397D900074FAF /* tab_view_with_pagination.swift in Sources */,
 				C1B07AB82B13A08D00074FAF /* Color+.swift in Sources */,
 				C1B07AA72B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
+				C1B07ACB2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */,
 				C1B07A5E2B13959B00074FAF /* personalEncyclopediaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,12 +461,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07AAC2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
+				C1B07AD02B13A1B600074FAF /* uikit_uiLabel.swift in Sources */,
 				C1B07AB92B13A08D00074FAF /* Color+.swift in Sources */,
 				C1B07AC42B13A0FA00074FAF /* default_view_representable.swift in Sources */,
 				C1B07AB02B139F8900074FAF /* flying_bird.swift in Sources */,
 				C1B07AB42B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
 				C1B07A6F2B13959C00074FAF /* personalEncyclopediaTests.swift in Sources */,
+				C1B07ACC2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */,
 				C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
+				C1B07AD42B13A1CA00074FAF /* uikit_uiButton.swift in Sources */,
+				C1B07AD82B13A1DB00074FAF /* uikit_divider.swift in Sources */,
 				C1B07AC82B13A10C00074FAF /* default_view_controller_representable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,12 +481,16 @@
 			files = (
 				C1B07ABA2B13A08D00074FAF /* Color+.swift in Sources */,
 				C1B07AC92B13A10C00074FAF /* default_view_controller_representable.swift in Sources */,
+				C1B07AD52B13A1CA00074FAF /* uikit_uiButton.swift in Sources */,
 				C1B07AAD2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
 				C1B07AB12B139F8900074FAF /* flying_bird.swift in Sources */,
+				C1B07ACD2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */,
+				C1B07AD92B13A1DB00074FAF /* uikit_divider.swift in Sources */,
 				C1B07A7B2B13959C00074FAF /* personalEncyclopediaUITestsLaunchTests.swift in Sources */,
 				C1B07AB52B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
 				C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 				C1B07AC52B13A0FA00074FAF /* default_view_representable.swift in Sources */,
+				C1B07AD12B13A1B600074FAF /* uikit_uiLabel.swift in Sources */,
 				C1B07A792B13959C00074FAF /* personalEncyclopediaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
