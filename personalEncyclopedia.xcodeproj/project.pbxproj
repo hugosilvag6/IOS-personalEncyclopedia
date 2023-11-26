@@ -62,6 +62,15 @@
 		C1B07AE72B13A3B000074FAF /* sound_playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AE62B13A3B000074FAF /* sound_playing.swift */; };
 		C1B07AE82B13A3B000074FAF /* sound_playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AE62B13A3B000074FAF /* sound_playing.swift */; };
 		C1B07AE92B13A3B000074FAF /* sound_playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AE62B13A3B000074FAF /* sound_playing.swift */; };
+		C1B07AF22B13A4F600074FAF /* phone_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF12B13A4F600074FAF /* phone_number.swift */; };
+		C1B07AF32B13A4F600074FAF /* phone_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF12B13A4F600074FAF /* phone_number.swift */; };
+		C1B07AF42B13A4F600074FAF /* phone_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF12B13A4F600074FAF /* phone_number.swift */; };
+		C1B07AF62B13A50900074FAF /* email.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF52B13A50900074FAF /* email.swift */; };
+		C1B07AF72B13A50900074FAF /* email.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF52B13A50900074FAF /* email.swift */; };
+		C1B07AF82B13A50900074FAF /* email.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF52B13A50900074FAF /* email.swift */; };
+		C1B07AFA2B13A51C00074FAF /* cpf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF92B13A51C00074FAF /* cpf.swift */; };
+		C1B07AFB2B13A51C00074FAF /* cpf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF92B13A51C00074FAF /* cpf.swift */; };
+		C1B07AFC2B13A51C00074FAF /* cpf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AF92B13A51C00074FAF /* cpf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +122,9 @@
 		C1B07AE12B13A36300074FAF /* biometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biometry.swift; sourceTree = "<group>"; };
 		C1B07AE62B13A3B000074FAF /* sound_playing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sound_playing.swift; sourceTree = "<group>"; };
 		C1B07AEB2B13A40200074FAF /* sound_playing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound_playing.m4a; sourceTree = "<group>"; };
+		C1B07AF12B13A4F600074FAF /* phone_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phone_number.swift; sourceTree = "<group>"; };
+		C1B07AF52B13A50900074FAF /* email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = email.swift; sourceTree = "<group>"; };
+		C1B07AF92B13A51C00074FAF /* cpf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cpf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +326,7 @@
 		C1B07ADF2B13A32C00074FAF /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C1B07AEC2B13A4DF00074FAF /* Validations */,
 				C1B07AE52B13A39900074FAF /* Utils */,
 			);
 			path = Swift;
@@ -335,6 +348,16 @@
 				C1B07AE62B13A3B000074FAF /* sound_playing.swift */,
 			);
 			path = sound_playing;
+			sourceTree = "<group>";
+		};
+		C1B07AEC2B13A4DF00074FAF /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				C1B07AF12B13A4F600074FAF /* phone_number.swift */,
+				C1B07AF52B13A50900074FAF /* email.swift */,
+				C1B07AF92B13A51C00074FAF /* cpf.swift */,
+			);
+			path = Validations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +497,8 @@
 				C1B07ACF2B13A1B600074FAF /* uikit_uiLabel.swift in Sources */,
 				C1B07AD72B13A1DB00074FAF /* uikit_divider.swift in Sources */,
 				C1B07AD32B13A1CA00074FAF /* uikit_uiButton.swift in Sources */,
+				C1B07AFA2B13A51C00074FAF /* cpf.swift in Sources */,
+				C1B07AF22B13A4F600074FAF /* phone_number.swift in Sources */,
 				C1B07AE22B13A36300074FAF /* biometry.swift in Sources */,
 				C1B07AC32B13A0FA00074FAF /* default_view_representable.swift in Sources */,
 				C1B07AAF2B139F8900074FAF /* flying_bird.swift in Sources */,
@@ -483,6 +508,7 @@
 				C1B07A9E2B139B0000074FAF /* breathing_circles.swift in Sources */,
 				C1B07AA02B139B3E00074FAF /* record_player_with_anchor.swift in Sources */,
 				C1B07AAB2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
+				C1B07AF62B13A50900074FAF /* email.swift in Sources */,
 				C1B07A972B13996900074FAF /* with_modifier.swift in Sources */,
 				C1B07A8C2B1396B500074FAF /* bottom_sheet.swift in Sources */,
 				C1B07A8F2B1397D900074FAF /* tab_view_with_pagination.swift in Sources */,
@@ -499,12 +525,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07AAC2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
+				C1B07AF72B13A50900074FAF /* email.swift in Sources */,
 				C1B07AE32B13A36300074FAF /* biometry.swift in Sources */,
 				C1B07AD02B13A1B600074FAF /* uikit_uiLabel.swift in Sources */,
 				C1B07AB92B13A08D00074FAF /* Color+.swift in Sources */,
 				C1B07AC42B13A0FA00074FAF /* default_view_representable.swift in Sources */,
 				C1B07AB02B139F8900074FAF /* flying_bird.swift in Sources */,
 				C1B07AB42B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
+				C1B07AFB2B13A51C00074FAF /* cpf.swift in Sources */,
 				C1B07A6F2B13959C00074FAF /* personalEncyclopediaTests.swift in Sources */,
 				C1B07ACC2B13A14E00074FAF /* uikit_uiTextfield.swift in Sources */,
 				C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
@@ -512,6 +540,7 @@
 				C1B07AD42B13A1CA00074FAF /* uikit_uiButton.swift in Sources */,
 				C1B07AD82B13A1DB00074FAF /* uikit_divider.swift in Sources */,
 				C1B07AC82B13A10C00074FAF /* default_view_controller_representable.swift in Sources */,
+				C1B07AF32B13A4F600074FAF /* phone_number.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,8 +558,11 @@
 				C1B07A7B2B13959C00074FAF /* personalEncyclopediaUITestsLaunchTests.swift in Sources */,
 				C1B07AE92B13A3B000074FAF /* sound_playing.swift in Sources */,
 				C1B07AB52B139FEA00074FAF /* sprite_kit_physics.swift in Sources */,
+				C1B07AFC2B13A51C00074FAF /* cpf.swift in Sources */,
 				C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 				C1B07AE42B13A36300074FAF /* biometry.swift in Sources */,
+				C1B07AF42B13A4F600074FAF /* phone_number.swift in Sources */,
+				C1B07AF82B13A50900074FAF /* email.swift in Sources */,
 				C1B07AC52B13A0FA00074FAF /* default_view_representable.swift in Sources */,
 				C1B07AD12B13A1B600074FAF /* uikit_uiLabel.swift in Sources */,
 				C1B07A792B13959C00074FAF /* personalEncyclopediaUITests.swift in Sources */,
