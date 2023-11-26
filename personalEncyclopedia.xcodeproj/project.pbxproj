@@ -26,6 +26,9 @@
 		C1B07AA72B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */; };
 		C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */; };
 		C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */; };
+		C1B07AAB2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */; };
+		C1B07AAC2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */; };
+		C1B07AAD2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,7 @@
 		C1B07A9F2B139B3E00074FAF /* record_player_with_anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = record_player_with_anchor.swift; sourceTree = "<group>"; };
 		C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vitrola_add_ancora_nas_animacoes.m4a; sourceTree = "<group>"; };
 		C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_animation_hue_rotation.swift; sourceTree = "<group>"; };
+		C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathing_flower_with_emitter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,7 @@
 				C1B07AA12B139B7200074FAF /* record_player_with_anchor */,
 				C1B07A9D2B139B0000074FAF /* breathing_circles.swift */,
 				C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */,
+				C1B07AAA2B139F0300074FAF /* breathing_flower_with_emitter.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -356,6 +361,7 @@
 				C1B07A952B13994C00074FAF /* without_modifier.swift in Sources */,
 				C1B07A9E2B139B0000074FAF /* breathing_circles.swift in Sources */,
 				C1B07AA02B139B3E00074FAF /* record_player_with_anchor.swift in Sources */,
+				C1B07AAB2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
 				C1B07A972B13996900074FAF /* with_modifier.swift in Sources */,
 				C1B07A8C2B1396B500074FAF /* bottom_sheet.swift in Sources */,
 				C1B07A8F2B1397D900074FAF /* tab_view_with_pagination.swift in Sources */,
@@ -368,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B07AAC2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
 				C1B07A6F2B13959C00074FAF /* personalEncyclopediaTests.swift in Sources */,
 				C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 			);
@@ -377,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B07AAD2B139F0300074FAF /* breathing_flower_with_emitter.swift in Sources */,
 				C1B07A7B2B13959C00074FAF /* personalEncyclopediaUITestsLaunchTests.swift in Sources */,
 				C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 				C1B07A792B13959C00074FAF /* personalEncyclopediaUITests.swift in Sources */,
