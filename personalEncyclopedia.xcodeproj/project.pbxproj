@@ -23,6 +23,9 @@
 		C1B07AA32B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */; };
 		C1B07AA42B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */; };
 		C1B07AA52B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */; };
+		C1B07AA72B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */; };
+		C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */; };
+		C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,7 @@
 		C1B07A9D2B139B0000074FAF /* breathing_circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathing_circles.swift; sourceTree = "<group>"; };
 		C1B07A9F2B139B3E00074FAF /* record_player_with_anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = record_player_with_anchor.swift; sourceTree = "<group>"; };
 		C1B07AA22B139B8200074FAF /* vitrola_add_ancora_nas_animacoes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = vitrola_add_ancora_nas_animacoes.m4a; sourceTree = "<group>"; };
+		C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_animation_hue_rotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,7 @@
 			children = (
 				C1B07AA12B139B7200074FAF /* record_player_with_anchor */,
 				C1B07A9D2B139B0000074FAF /* breathing_circles.swift */,
+				C1B07AA62B139D4A00074FAF /* color_animation_hue_rotation.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				C1B07A972B13996900074FAF /* with_modifier.swift in Sources */,
 				C1B07A8C2B1396B500074FAF /* bottom_sheet.swift in Sources */,
 				C1B07A8F2B1397D900074FAF /* tab_view_with_pagination.swift in Sources */,
+				C1B07AA72B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 				C1B07A5E2B13959B00074FAF /* personalEncyclopediaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07A6F2B13959C00074FAF /* personalEncyclopediaTests.swift in Sources */,
+				C1B07AA82B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1B07A7B2B13959C00074FAF /* personalEncyclopediaUITestsLaunchTests.swift in Sources */,
+				C1B07AA92B139D4A00074FAF /* color_animation_hue_rotation.swift in Sources */,
 				C1B07A792B13959C00074FAF /* personalEncyclopediaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
