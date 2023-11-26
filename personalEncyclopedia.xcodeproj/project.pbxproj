@@ -380,9 +380,8 @@
 		C1B07AFD2B13A58200074FAF /* Integration(SwiftUI+UIKit) */ = {
 			isa = PBXGroup;
 			children = (
+				C1B07B262B13A96D00074FAF /* uiKit_inside_swfitUI */,
 				C1B07B0A2B13A62700074FAF /* swiftUI_inside_uiKit */,
-				C1B07B022B13A5C200074FAF /* uiView_inside_swiftUI.swift */,
-				C1B07B062B13A5FF00074FAF /* uiViewController_inside_swiftUI.swift */,
 			);
 			path = "Integration(SwiftUI+UIKit)";
 			sourceTree = "<group>";
@@ -402,6 +401,15 @@
 				C1B07B1A2B13A73E00074FAF /* swiftUI_inside_uiKit_viewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C1B07B262B13A96D00074FAF /* uiKit_inside_swfitUI */ = {
+			isa = PBXGroup;
+			children = (
+				C1B07B022B13A5C200074FAF /* uiView_inside_swiftUI.swift */,
+				C1B07B062B13A5FF00074FAF /* uiViewController_inside_swiftUI.swift */,
+			);
+			path = uiKit_inside_swfitUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
