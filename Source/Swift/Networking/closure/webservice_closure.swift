@@ -20,11 +20,11 @@ enum WebserviceClosureErrors: LocalizedError {
 }
 
 protocol WebServiceClosureProtocol {
-    static func getProducts(url: AppConstants.Urls, completion: @escaping (Result<ProductList, Error>) -> Void)
+    func getProducts(url: AppConstants.Urls, completion: @escaping (Result<ProductList, Error>) -> Void)
 }
 
 class Webservice: WebServiceClosureProtocol {
-    static func getProducts(url: AppConstants.Urls, completion: @escaping (Result<ProductList, Error>) -> Void) {
+    func getProducts(url: AppConstants.Urls, completion: @escaping (Result<ProductList, Error>) -> Void) {
         guard let url = URL(string: url.rawValue) else {
             completion(.failure(WebserviceClosureErrors.invalidUrl))
             return

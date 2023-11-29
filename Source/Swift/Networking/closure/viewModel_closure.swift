@@ -7,17 +7,17 @@
 
 import Foundation
 
-class viewModel_async: ObservableObject {
+class viewModel_closure: ObservableObject {
     @Published var products: [Product] = []
-    var manager: HomeManagerProtocol
-        
-        init(manager: HomeManagerProtocol = HomeManager()) {
-            self.manager = manager
-            getProductList()
-        }
+    var manager: ManagerClosureProtocol
+    
+    init(manager: ManagerClosureProtocol = ManagerClosure()) {
+        self.manager = manager
+        getProductList()
+    }
 }
 
-extension viewModel_async {
+extension viewModel_closure {
     func getProductList() {
         guard products.isEmpty else { return }
         manager.getProductList { result in
